@@ -39,4 +39,10 @@ public class SevenThymeleafController {
         model.addAttribute("str2",str2);
         return "index7";
     }
+    public void fenzhi(){
+        System.out.println("fenzhi新增方法");
+    }
+    public void fenzhi2(){
+        System.out.println("fenzhi新增方法2");
+    }
 }
